@@ -101,16 +101,6 @@ Resúmenes de cada clase con los contenidos del material guía, conceptos clave,
 
 ---
 
-## 📝 Cómo usar este workspace
-
-### `anuncios.md` *(privado — no en git)*
-Todos los anuncios de las 9 semanas completamente redactados. Actualizar `https://XXXXXXXXXXXXXXXX` con el enlace real de cada grabación y archivo Figma.
-
-### `foros.md` *(privado — no en git)*
-Preguntas de los foros semanales. Reemplazar `[AQUÍ_TU_LINK_SEMANA_X]` con el enlace del formulario de Google Forms correspondiente.
-
----
-
 ## 📋 Tipos de entrega por semana
 
 | Semana | Actividad | Entrega |
