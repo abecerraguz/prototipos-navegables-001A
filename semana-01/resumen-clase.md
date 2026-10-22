@@ -481,6 +481,9 @@ Lee el caso y aplica lo que practicaste aquí. Si quieres reforzar, el material 
 
 
 ---
-[📄 Ver Presentación de la Clase](material-clase/presentacion.pdf)
+[📌 Ver Presentación de la Clase](material-clase/presentacion.pdf)
+
 ---
-<a href="material-clase/template-base-design-system.fig" download>Descargar design system figma</a>
+[📌 Descargar design system figma](https://drive.google.com/file/d/1t31mBw4CLYYZhbLMFGRHOgjF70iisTKe/view?usp=sharing)
+
+---
