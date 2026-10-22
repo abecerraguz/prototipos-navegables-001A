@@ -479,4 +479,8 @@ Lee el caso y aplica lo que practicaste aquí. Si quieres reforzar, el material 
 5. La n.º 4, **Consistencia y estándares**: el usuario reconoce el mismo patrón visual y de interacción en todas partes.
 6. Porque es un objetivo táctil cómodo que reduce errores. Coincide con el mínimo de Apple (44 × 44 pt) y con el nivel recomendado de WCAG (44 × 44 px).
 
+
+---
 [📄 Ver Presentación de la Clase](material-clase/presentacion.pdf)
+---
+<a href="material-clase/template-base-design-system.fig" download>Descargar design system figma</a>
