@@ -4,7 +4,7 @@
 
 ---
 
-> 🖼️ *Infografía de clase — agregar a `material-clase/infografia.png` cuando esté disponible.*
+> 🖼️ *Infografía de clase [Infografía Semana 9](material-clase/infografia.png)
 
 > 🎨 **Tutorial práctico de la semana:** [tutorial-figma.md](tutorial-figma.md) — cerrar la maqueta final en Figma, recuperar versiones anteriores y exportar las capturas del informe.
 
@@ -117,4 +117,4 @@ Este bimestre recorrieron el proceso completo del diseño de interfaz centrado e
 
 ---
 
-> 📄 *Presentación de clase — agregar a `material-clase/presentacion.pdf` cuando esté disponible.*
+[📄 Ver Presentación de la Clase](material-clase/presentacion.pdf)
