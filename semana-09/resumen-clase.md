@@ -6,147 +6,114 @@
 
 > 🖼️ *Infografía de clase — agregar a `material-clase/infografia.png` cuando esté disponible.*
 
+> 🎨 **Tutorial práctico de la semana:** [tutorial-figma.md](tutorial-figma.md) — cerrar la maqueta final en Figma, recuperar versiones anteriores y exportar las capturas del informe.
+
 ---
 
 ## Introducción
 
-La Evaluación Final Transversal (EFT) documenta y presenta todo el **proceso de desarrollo del prototipo de la tienda de distribución de productos Apple** trabajado durante las 3 Experiencias de Aprendizaje del bimestre. El objetivo es evidenciar el proceso completo: desde el diseño inicial hasta las iteraciones basadas en los resultados del A/B test.
+Esta semana no tiene guía de aprendizaje: es la semana de la **Evaluación Final Transversal**. Este resumen se basa en el enunciado (`material-semana/examen-transversal.pdf`) y en la rúbrica (`material-semana/rubrica.pdf`).
+
+La EFT consiste en crear una **nueva maqueta de interfaz responsiva** para la **tienda de distribución de productos Apple** que comenzaste en la Experiencia 2, usando los **resultados del A/B test de la semana 8** para guiar tus decisiones de diseño. Además, elaborarás un **informe** que documente y evidencie todo el proceso, considerando lo que hiciste en las semanas **4, 5, 7 y 8**.
 
 ---
 
-## Descripción de la EFT
+## Entregable 1 — Nueva maqueta de interfaz responsiva
 
-La EFT consiste en **dos entregables:**
+Una nueva versión de la maqueta responsiva de la tienda que aplique lo que aprendiste del **A/B test**: lo que funcionó en la variante B y los ajustes que hiciste con el feedback de los usuarios.
 
-### Entregable 1 — Nueva Maqueta de Interfaz Responsiva
-Crear una nueva versión de la maqueta responsiva considerando los **resultados del A/B test** de la Semana 8 para guiar las decisiones de diseño y mejorar la experiencia del usuario.
+**Checklist sugerido** (a partir de lo trabajado en el bimestre):
 
-### Entregable 2 — Informe del Proceso de Diseño
-Elaborar un informe que documente y evidencie todo el proceso de diseño de esta nueva maqueta.
-
----
-
-## Estructura del Informe EFT
-
-### INTRODUCCIÓN
-
-Descripción general del proyecto considerando:
-- **Objetivo** del diseño de la tienda Apple
-- **Metodología** utilizada (DCU, Mobile First, Atomic Design)
-- **Fases del proceso** de diseño seguidas
-- **Estrategias de evaluación** de usabilidad y accesibilidad utilizadas
-
----
-
-### DESARROLLO
-
-El desarrollo contiene las siguientes secciones:
-
-#### Primera versión de interfaz *(Semana 4 — AF3)*
-- Descripción de la primera versión de la interfaz con **capturas de pantalla**
-- Explicación del diseño y su funcionalidad
-- Cómo se abordaron las necesidades del cliente (Apple Store)
-- Elementos de accesibilidad y usabilidad incorporados
-
-#### Diseño de páginas *(Semana 5 — AS2)*
-- Explicación de las **metodologías aplicadas** (Mobile First + Atomic Design)
-- Cómo las metodologías influyeron en la coherencia del diseño
-- Aplicación de las heurísticas de Nielsen y criterios de accesibilidad en la evaluación
-
-#### Proceso de iteración *(Semana 8 — AS3)*
-- Cómo los resultados del **A/B test** influyeron en el enfoque de diseño
-- Qué aspectos del diseño original se vieron afectados
-- Cómo se implementaron las mejoras y de qué manera contribuyeron a la nueva maqueta
-
-#### Evaluación de accesibilidad
-- Criterios de usabilidad y accesibilidad considerados en cada iteración
-- **Mejoras implementadas** a partir de los resultados del testeo
-- **Capturas de pantalla** que muestren las diferentes etapas del diseño: primera versión → iteraciones → versión final
-
----
-
-### CONCLUSIONES
-
-Síntesis final del proceso que incluye:
-- Resultados del análisis efectuado
-- Interpretación de los resultados
-- Evaluación de si se cumplieron los objetivos del diseño
-- Reflexión sobre el aprendizaje del proceso completo
-
-> 📚 Recurso de apoyo para redactar conclusiones: [Elaboración de documentos e informes — Bibliotecas DUOC UC](https://bibliotecas.duoc.cl/elaboracion-de-documentos-o-informes/como-elaborar-una-)
-
----
-
-## Maqueta Final — Checklist de Entrega
-
-La nueva maqueta responsiva debe incluir:
-
-| Elemento | Desktop 1440px | Mobile 375px |
+| Elemento | Escritorio | Móvil |
 |---------|:-:|:-:|
-| Landing page actualizada | ✅ | ✅ |
-| Catálogo de productos | ✅ | ✅ |
+| Home (landing) actualizada | ✅ | ✅ |
 | Ficha de producto | ✅ | ✅ |
-| Página adicional (carrito o comparador) | ✅ | ✅ |
-| Flujos conectados (mín. 3) | ✅ | ✅ |
-| Mejoras del A/B test aplicadas | ✅ | ✅ |
+| Carrito de compras | ✅ | ✅ |
+| Check out | ✅ | ✅ |
+| Mejoras del A/B test aplicadas en todas las páginas que corresponda | ✅ | ✅ |
+| Flujos conectados y probados | ✅ | ✅ |
 | Anotaciones de accesibilidad | ✅ | ✅ |
-| Guía de estilos actualizada | ✅ | — |
+| Guía de estilos y sistema de diseño actualizados | ✅ | — |
+
+---
+
+## Entregable 2 — Informe del proceso de diseño
+
+### Introducción
+- El proyecto en términos generales: su **objetivo** y los **lineamientos** entregados.
+- La **metodología** de diseño de interfaz (por ejemplo, DCU, Mobile First y Atomic Design).
+- Las **fases del proceso**.
+- Las **estrategias de evaluación** de usabilidad y accesibilidad que usaste.
+
+### Desarrollo
+
+Una descripción detallada de cada paso del proceso, en cuatro secciones:
+
+| Sección | Qué debe explicar | Semana de origen |
+|---------|-------------------|:----------------:|
+| **Primera versión de interfaz** | La primera versión creada en la semana 4, con **capturas** y la explicación de su diseño y funcionalidad. Cómo se abordaron las **necesidades del cliente** y los elementos de **accesibilidad y usabilidad** en esa interfaz inicial responsiva. | S4 · AF3 |
+| **Diseño de páginas** | Cómo aplicaste las **metodologías** (Mobile First y Atomic Design) en las páginas interiores y cómo influyeron en la **coherencia** del diseño. Cómo aplicaste las **heurísticas de Nielsen** y los **criterios de accesibilidad** en la evaluación. | S5 · AS2 y S7 · AF5 |
+| **Proceso de iteración** | Cómo los resultados del **A/B test** influyeron en tu enfoque y qué aspectos del diseño original se vieron afectados. Cómo implementaste las mejoras y cómo contribuyeron a una maqueta más efectiva. | S8 · AS3 |
+| **Evaluación de accesibilidad** | Cómo consideraste la usabilidad y la accesibilidad en **cada iteración y versión**. Las mejoras hechas a partir de los testeos y evaluaciones. **Capturas** de las distintas etapas: de la primera versión a las iteraciones mejoradas. | Todo el proceso |
+
+### Conclusiones
+
+La parte final, donde presentas de forma resumida los **resultados del análisis** y su **interpretación**, con una **conclusión final del proceso**.
+
+> 📚 Recurso de apoyo: [Cómo elaborar una conclusión — Bibliotecas Duoc UC](https://bibliotecas.duoc.cl/elaboracion-de-documentos-o-informes/como-elaborar-una-conclusion)
+
+---
+
+## Cómo se evalúa (rúbrica)
+
+La rúbrica evalúa **los siete indicadores de logro** del bimestre, con cinco niveles: Completamente logrado (100 %), Logrado (80 %), Medianamente logrado (60 %), Insuficiente (30 %) y No logrado (0 %).
+
+| # | Criterio | Puntaje máximo |
+|---|----------|:--------------:|
+| 1 | Utiliza **componentes** para el diseño de una interfaz interactiva, según la experiencia de usuario y los requerimientos del proyecto. | 14 |
+| 2 | Utiliza **elementos gráficos** para la correcta composición, aplicando interacciones y considerando accesibilidad y usabilidad (contraste, tamaños legibles). | 14 |
+| 3 | Implementa una **maqueta responsiva** para múltiples dispositivos: elementos que se reorganizan y redimensionan bien en cada uno. | 14 |
+| 4 | Aplica la **guía de estilo** de forma coherente, con criterios de accesibilidad y usabilidad. | 14 |
+| 5 | Compone un **prototipo interactivo** con navegación fácil e intuitiva en cualquier dispositivo. | 14 |
+| 6 | Aplica **test heurístico** para evaluar la usabilidad: identifica y analiza los problemas en profundidad y propone mejoras. | 15 |
+| 7 | **Implementa cambios** a partir de los resultados del testeo, abordando tanto los problemas visibles como los más sutiles. | 15 |
+| | **Total** | **100** |
+
+---
+
+## Entrega
+
+- 📤 **En AVA:**
+  1. **ZIP** con el archivo de tu proyecto (Figma: **Archivo → Guardar copia local**).
+  2. El documento del enunciado con el **enlace de revisión** del diseño (acceso «Cualquier persona con el enlace · Puede ver»).
+  3. El **informe** del proceso.
+- 📅 **Fecha límite:** **Domingo 20 de diciembre de 2026 a las 23:59 hrs** (ojo: domingo, no lunes).
+- ⚠️ Revisa la rúbrica completa en AVA.
 
 ---
 
 ## Resumen del Proceso del Bimestre
 
 ### Experiencia 1 — Creando un prototipo navegable *(S1–S2)*
-- Componentes en Figma (botones, cards, navbar, footer)
-- Guía de estilos con variables de color y tipografía
-- Landing page navegable con interacciones y navegación por anclas
-- Indicaciones de accesibilidad (alt text, contraste, áreas táctiles)
+- Componentes, usabilidad, accesibilidad (WCAG 2.1) y leyes de Nielsen.
+- Entrega accesible: simbología, orden de tabulación, encabezados, vínculos, roles y alt.
+- Guía de estilos con componentes, diseño de interacción y navegación por anclas (AS1: rediseño del line-up de Lollapalooza).
 
 ### Experiencia 2 — Diseñando una interfaz responsiva y escalable *(S3–S5)*
-- Patrones de interacción móvil (fold, gestos, zonas de alcance)
-- Interfaz responsiva con breakpoints (375px, 768px, 1440px)
-- Tipografía accesible y espaciado correcto
-- Sistema de diseño con Atomic Design (átomos → páginas)
-- Páginas interiores del prototipo completo
+- Patrones de interacción móvil: fold, ley del pulgar, gestos, resoluciones y pruebas de usabilidad.
+- Interfaz responsiva: mesas de trabajo, columnas, breakpoints, tipografía y espaciado accesibles, carrusel y acordeón (AF3: landing de la tienda).
+- Cómo iniciar un proyecto, Mobile First, sistemas de diseño y Atomic Design (AS2: páginas interiores).
 
 ### Experiencia 3 — Evaluando y mejorando *(S6–S8)*
-- Evaluación heurística con las 10 reglas de Nielsen
-- Test guiado y no guiado con plantilla Torres Burriel
-- Criterios de accesibilidad WCAG 2.1 aplicados al prototipo
-- Proceso de iteración basado en evidencia
-- A/B testing documentado con conclusiones
-
----
-
-## Indicadores de Logro Evaluados en la EFT
-
-La EFT evalúa **todos los indicadores** del bimestre de forma integrada:
-
-| IL | Indicador |
-|----|-----------|
-| **IL1** | Componentes para el diseño de la interfaz interactiva |
-| **IL2** | Elementos gráficos para la composición del diseño |
-| **IL3** | Maqueta responsiva para múltiples dispositivos |
-| **IL4** | Guía de estilo con criterios de accesibilidad |
-| **IL5** | Prototipo interactivo con accesibilidad y usabilidad |
-| **IL6** | Test heurístico aplicado al diseño |
-| **IL7** | Cambios implementados a partir del testeo |
-
----
-
-## Evaluación Final
-
-> 📁 **EFT: Nueva maqueta + informe del proceso** · Actividad
-
-- 📅 **Fecha límite:** **Domingo 20 de diciembre de 2026 a las 23:59 hrs**
-- 📤 **Entrega en AVA:** Informe (PDF) + Maqueta Figma (ZIP)
-- ⚠️ Revisar la rúbrica detallada descargable desde AVA
+- Evaluación de sitios web y las 10 heurísticas de Nielsen.
+- Lista de evaluación, test guiado y no guiado, Torres Burriel y tabla de cotejo WCAG AA (AF5).
+- Iteración, A/B testing y mejoras de accesibilidad (AS3).
 
 ---
 
 ## Cierre del Bimestre
 
-Este bimestre recorrieron el proceso completo de diseño de interfaz centrado en el usuario: **crear → evaluar → mejorar**. Comenzaron con un botón y termina con un prototipo completo, navegable, responsivo, accesible y evaluado. Eso es exactamente lo que hace un profesional del diseño UX/UI.
+Este bimestre recorrieron el proceso completo del diseño de interfaz centrado en el usuario: **crear → evaluar → mejorar**. Comenzaron con un botón y terminan con un prototipo completo, navegable, responsivo, accesible y evaluado. Eso es exactamente lo que hace un profesional del diseño UX/UI.
 
 ---
 

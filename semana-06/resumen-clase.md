@@ -4,17 +4,28 @@
 
 ---
 
-> 🖼️ *Infografía de clase — agregar a `material-clase/infografia.png` cuando esté disponible.*
+![Infografía Semana 6](material-clase/infografia.png)
+
+---
+
+> 🎨 **Tutorial práctico de la semana:** [tutorial-figma.md](tutorial-figma.md) — cómo registrar y priorizar hallazgos heurísticos dentro de Figma.
 
 ---
 
 ## Introducción
 
-Esta semana iniciamos la **Experiencia 3** aprendiendo cómo evaluar y mejorar nuestros diseños. Para medir la usabilidad y accesibilidad existen diversas herramientas y técnicas: pruebas con usuarios reales, análisis de datos, revisión de contenido, evaluación de accesibilidad y **evaluación heurística**.
+Esta semana iniciamos la **Experiencia 3**: veremos cómo **evaluar y mejorar** nuestros diseños. Para medir la usabilidad y la accesibilidad de un sitio web existen diversas herramientas y técnicas:
 
-La usabilidad y la accesibilidad son aspectos clave que deben trabajarse de manera constante — no solo al final del proceso de diseño.
+- **Pruebas con usuarios reales**, para evaluar la facilidad de uso y de navegación.
+- **Herramientas de análisis de datos**, para medir el tiempo de carga, la tasa de rebote y otros indicadores.
+- Las **directrices de accesibilidad web**, para asegurar que el sitio sea accesible para todas las personas, independientemente de sus capacidades físicas o cognitivas.
 
-> 💡 **Preguntas activadoras:** ¿Qué es un test heurístico? ¿Para qué sirve? ¿Cómo aplicar las 10 reglas heurísticas de Nielsen?
+La usabilidad y la accesibilidad son aspectos clave: hay que trabajarlas **de manera constante**, no solo al final.
+
+> 💡 **Preguntas activadoras**
+> - ¿Qué es un test heurístico?
+> - ¿Para qué sirve un test heurístico?
+> - ¿Cómo aplicar las 10 reglas heurísticas de Nielsen?
 
 ---
 
@@ -31,107 +42,92 @@ La usabilidad y la accesibilidad son aspectos clave que deben trabajarse de mane
 
 ## Conceptos Clave de la Semana
 
-`Test heurístico` · `Evaluación heurística` · `Usabilidad` · `Accesibilidad` · `Pautas de Accesibilidad` · `Mejoras de prototipos`
+`Test heurístico` · `Usabilidad` · `Evaluación` · `Pautas de accesibilidad` · `Accesibilidad` · `Mejoras de prototipos`
 
 ---
 
 ## Contenidos
 
-### 1. Evaluación de Diseño de Sitios Web
+### 1. Evaluación de diseño de sitios web
 
-La **evaluación de sitios web** es un proceso sistemático y objetivo para analizar y medir la calidad, usabilidad y efectividad de una interfaz. Métodos principales:
+Es un **proceso sistemático y objetivo** para analizar y medir la calidad, la usabilidad y la efectividad de un sitio. Busca identificar **fortalezas, debilidades y oportunidades de mejora**, para optimizar la experiencia del usuario y cumplir los objetivos del sitio.
 
-| Método | Descripción | Requiere usuarios |
-|--------|-------------|:----------------:|
-| **Evaluación Heurística** | Revisión experta con lista de principios | ❌ |
-| **Pruebas de Usabilidad** | Observar usuarios reales completando tareas | ✅ |
-| **Análisis de Métricas** | Datos de comportamiento (tiempo, tasa de rebote) | Indirecto |
-| **Revisión de Contenido** | Calidad, relevancia, organización del contenido | ❌ |
-| **Evaluación de Accesibilidad** | Cumplimiento WCAG 2.1 | ❌ |
-| **Evaluación de SEO** | Estructura, metadatos, indexación | ❌ |
+| Método | En qué consiste | ¿Requiere usuarios? |
+|--------|-----------------|:-------------------:|
+| **Evaluación heurística** | Revisión experta del sitio con una lista de heurísticas o principios de usabilidad. Se buscan violaciones y se proponen mejoras. | ❌ |
+| **Pruebas de usabilidad** | Observar a usuarios reales haciendo tareas. Pueden ser **moderadas** (con facilitador) o **no moderadas** (sin facilitador). Se registran problemas, tiempos e impresiones. | ✅ |
+| **Análisis de métricas y datos** | Datos de comportamiento con herramientas de analítica: tiempos de carga, tasa de rebote, páginas visitadas. | Indirecto |
+| **Revisión de contenido** | Calidad y relevancia: precisión, organización, legibilidad, coherencia y adecuación al público. | ❌ |
+| **Evaluación de accesibilidad** | Cumplimiento de estándares como las WCAG, para personas con discapacidad visual, auditiva, cognitiva o motora. | ❌ |
+| **Evaluación de SEO** | Posicionamiento en buscadores: estructura de URL, metadatos, palabras clave e indexación. | ❌ |
 
----
-
-### 2. ¿Qué es la Evaluación Heurística?
-
-Un **test heurístico** es una técnica de evaluación de usabilidad que identifica posibles problemas en el diseño de una interfaz mediante una revisión sistemática usando **heurísticas** (principios de usabilidad establecidos).
-
-**Proceso del test heurístico:**
-1. Un evaluador experto examina la interfaz
-2. Busca violaciones a las heurísticas
-3. Documenta cada problema encontrado
-4. Asigna severidad a cada hallazgo
-5. Propone soluciones
-
-**¿Cuántos evaluadores se necesitan?**
-- 1 evaluador detecta ≈35% de los problemas
-- 3 evaluadores detectan ≈65%
-- 5 evaluadores detectan ≈75%
-- Nielsen recomienda **entre 3 y 5** evaluadores
+> 💡 Conviene **combinar métodos** según los objetivos y el público del sitio, y usar los resultados para tomar decisiones informadas sobre diseño, usabilidad y contenido.
 
 ---
 
-### 3. Test Heurístico de Nielsen — Las 10 Reglas Aplicadas al Diseño de Interfaces
+### 2. ¿Qué es la evaluación heurística?
 
-| # | Heurística | Cómo se aplica al diseño de interfaz |
-|---|-----------|--------------------------------------|
-| 1 | **Visibilidad del estado del sistema** | Feedback visual al hacer clic, indicadores de carga, estado del carrito |
-| 2 | **Relación sistema/mundo real** | Usar "Comprar" no "Ejecutar transacción"; íconos reconocibles |
-| 3 | **Control y libertad del usuario** | Botón "Deshacer", poder cancelar procesos |
-| 4 | **Consistencia y estándares** | Mismos botones, misma paleta, mismo comportamiento en todas las páginas |
-| 5 | **Prevención de errores** | Confirmar antes de eliminar, validar formularios en tiempo real |
-| 6 | **Reconocer antes que recordar** | Imagen del producto en el carrito; mostrar el color seleccionado con su nombre |
-| 7 | **Flexibilidad y eficiencia** | Filtros rápidos + búsqueda + categorías para distintos tipos de usuarios |
-| 8 | **Diseño estético y minimalista** | Solo mostrar información relevante, sin elementos decorativos que compitan |
-| 9 | **Ayudar a reconocer/recuperarse de errores** | Mensajes específicos: "Código de descuento expirado" (no "Error") |
-| 10 | **Ayuda y documentación** | FAQ visible, chat de soporte accesible (no solo en el footer) |
+Un **test heurístico** es una técnica de evaluación de usabilidad que identifica posibles problemas en el diseño de una interfaz mediante una **revisión sistemática y exhaustiva**, usando una lista de **heurísticas**: reglas generales para detectar problemas comunes de usabilidad.
+
+- Lo hace un **evaluador experto**, con su conocimiento y experiencia en diseño de interfaces.
+- Puede usar heurísticas ampliamente aceptadas (como las de Nielsen) o **adaptarlas** al proyecto.
+- Busca problemas de **navegación**, estructura de la información, **legibilidad**, consistencia visual, **retroalimentación** al usuario y facilidad de uso.
+- Al terminar, se **documentan** los problemas y se **clasifican según su gravedad**. Con eso se priorizan las correcciones.
+
+> ⚠️ **Importante:** el test heurístico es útil y eficiente porque detecta problemas **sin involucrar usuarios reales**. Pero **no reemplaza** las pruebas con usuarios, que revelan problemas y perspectivas que una revisión experta no ve. Lo recomendable es **combinar técnicas**.
 
 ---
 
-### 4. Escala de Severidad de Nielsen
+### 3. Las 10 heurísticas de Nielsen
 
-Al documentar hallazgos, se asigna severidad según:
-- **Frecuencia:** ¿con qué frecuencia ocurre?
-- **Impacto:** ¿qué tan difícil es para el usuario superarlo?
-- **Persistencia:** ¿ocurre una vez o repetidamente?
+Desarrolladas por **Jakob Nielsen** en los años 90, son conocidas como las «10 reglas de oro» del diseño de interfaces. La guía las ilustra con ejemplos reales:
 
-| Nivel | Descripción | Prioridad de corrección |
-|-------|-------------|------------------------|
+| # | Heurística | Qué pide | Ejemplo de la guía |
+|---|-----------|----------|-------------------|
+| 1 | **Visibilidad del estado del sistema** | Informar siempre qué está pasando, con feedback claro. | Barra de progreso al subir un archivo a Google Drive. |
+| 2 | **Correspondencia entre el sistema y el mundo real** | Lenguaje y conceptos familiares para el usuario. | La página 404 de Netflix («Lo sentimos, la página que buscas no existe») frente a una página de error sin diseño. |
+| 3 | **Control y libertad del usuario** | Poder deshacer y navegar con libertad. | «Deshacer» después de enviar un correo en Gmail. |
+| 4 | **Consistencia y estándares** | Mismas convenciones, misma presentación y mismo comportamiento. | Menú de LinkedIn: mal ejemplo con un solo ícono a color; buen ejemplo con todos iguales. |
+| 5 | **Prevención de errores** | Anticiparse con indicaciones, confirmaciones y restricciones; si el error ocurre, un mensaje que explique cómo corregirlo. | Gmail: «Especifica al menos un destinatario». |
+| 6 | **Reconocimiento en lugar de recuerdo** | Mostrar la información y las opciones; no obligar a recordar. | Ícono de carrito con texto en Mercado Libre («Carrito») y Falabella («Canasta»). |
+| 7 | **Flexibilidad y eficiencia de uso** | Personalización y atajos para usuarios experimentados. | Arrastrar y soltar archivos y carpetas en Google Drive. |
+| 8 | **Estética y diseño minimalista** | Diseño limpio, sin elementos innecesarios. | La interfaz simple de ChatGPT. |
+| 9 | **Ayuda y documentación** | Ayuda fácil de buscar, entender y usar. | Preguntas frecuentes de Mailchimp. |
+| 10 | **Recuperación de errores** | Mensajes de error claros y específicos, con soluciones sugeridas. | Página de Mailchimp al llegar a una URL que no existe. |
+
+> 📌 La guía presenta las reglas 9 y 10 en este orden. En la lista oficial de Nielsen Norman Group, la n.º 9 es «Ayudar a reconocer, diagnosticar y recuperarse de errores» y la n.º 10 es «Ayuda y documentación». Al documentar, **nombra la heurística**, no solo el número.
+
+> 🔗 [10 heurísticas de usabilidad (Nielsen Norman Group)](https://www.nngroup.com/articles/ten-usability-heuristics/) · [10 reglas heurísticas y cómo aplicarlas (UI from Mars)](https://www.uifrommars.com/10-reglas-heuristicas-como-aplicarlas/) · Videos del canal de NN/g en YouTube (en inglés, con subtítulos), comenzando por «Usability Heuristic 1: Visibility of System Status».
+
+---
+
+### 4. Cómo documentar y priorizar (complemento)
+
+Estos elementos no están en la guía de esta semana, pero los usarás en las semanas 7 y 8:
+
+**Escala de severidad de Nielsen**
+
+| Nivel | Descripción | Prioridad |
+|-------|-------------|-----------|
 | **0** | No es un problema de usabilidad | Ignorar |
-| **1** | Cosmético | Solo si hay tiempo disponible |
-| **2** | Menor | Baja prioridad |
-| **3** | Mayor | Importante corregir antes del lanzamiento |
-| **4** | Catastrófico | Debe corregirse **antes** de publicar |
+| **1** | Cosmético | Solo si hay tiempo |
+| **2** | Menor | Baja |
+| **3** | Mayor | Corregir antes de publicar |
+| **4** | Catastrófico | Corregir sí o sí antes de publicar |
 
----
+**¿Cuántos evaluadores?** Según Nielsen, una persona encuentra cerca del **35 %** de los problemas y cinco personas, cerca del **75 %**. Por eso se recomiendan **entre 3 y 5** evaluadores.
 
-### 5. Proceso de Evaluación Heurística
-
-**Pasos:**
-
+**Registro de un hallazgo:**
 ```
-1. Definir alcance y tareas a evaluar
-        ↓
-2. Evaluación individual (cada evaluador de forma independiente)
-        ↓
-3. Registrar hallazgos (heurística, elemento, descripción, severidad, propuesta)
-        ↓
-4. Consolidar hallazgos de todos los evaluadores
-        ↓
-5. Priorizar por severidad
-        ↓
-6. Documentar propuestas de mejora
+ID:            H1
+Heurística:    n.º y nombre
+Elemento:      componente o sección
+Descripción:   qué está mal y por qué afecta al usuario
+Severidad:     0 a 4
+Propuesta:     cómo corregirlo, de forma específica
 ```
 
-**Plantilla de registro de hallazgo:**
-```
-ID: [número]
-Heurística vulnerada: [# y nombre]
-Elemento: [componente o sección específica]
-Descripción: [qué está mal y por qué]
-Severidad: [0-4]
-Propuesta: [cómo corregirlo]
-```
+> 🔗 Plantilla para análisis heurísticos de **Torres Burriel**, que usarás en la semana 7: [torresburriel.com](https://www.torresburriel.com)
 
 ---
 
@@ -139,17 +135,27 @@ Propuesta: [cómo corregirlo]
 
 > 📝 **AF4: Utilizando las reglas de Nielsen para evaluar una interfaz** · Cuestionario en AVA
 
-Lee y analiza una situación relacionada con una plataforma de cursos en línea (e-learning) y responde las preguntas sobre cómo se aplican las reglas heurísticas de Nielsen al diseño de esa plataforma.
+Leerás y analizarás una situación sobre la evaluación de una **plataforma de cursos en línea (e-learning)** y responderás cómo se aplican las reglas heurísticas de Nielsen a su diseño. Evaluarás elementos clave de la interfaz: navegación, diseño visual, claridad de la información y otros aspectos que influyen en la efectividad y la satisfacción del usuario.
 
 - 📅 **Fecha límite:** Lunes 30 de noviembre de 2026 a las 23:59 hrs
-- 📤 **Entrega:** Cuestionario directo en la plataforma AVA (sin archivo ZIP)
+- 📤 **Entrega:** Cuestionario directo en AVA (sin archivo)
 
 ---
 
 ## Cierre de Semana
 
-El test heurístico transforma la evaluación del diseño en un proceso sistemático y basado en evidencia. En lugar de "creo que está bien", ahora podemos decir "según el principio N°X de Nielsen, este elemento tiene un problema de severidad 3 y la solución es...". Esa es la diferencia entre un diseñador en formación y un profesional.
+Comprender las reglas heurísticas de Nielsen es clave para diseñar interfaces efectivas y satisfactorias. Al aplicarlas durante el diseño podemos **anticipar** dificultades y tomar decisiones informadas que mejoran la usabilidad, la eficiencia y la satisfacción.
+
+También nos ayudan a encontrar áreas de mejora en la estructura de la información, la navegación, la legibilidad, la consistencia visual y otros aspectos clave. El resultado: menos fricción, tareas más fáciles, usuarios más satisfechos, más retención de visitantes y más probabilidades de éxito del producto.
 
 ---
 
-> 📄 *Presentación de clase — agregar a `material-clase/presentacion.pdf` cuando esté disponible.*
+## Referencias de la guía
+
+- Busquets, C. (s.f.). *10 reglas heurísticas de Nielsen y cómo aplicarlas.* UI from Mars. [uifrommars.com](https://www.uifrommars.com/10-reglas-heuristicas-como-aplicarlas/)
+- Nielsen, J. (2020). *10 Usability Heuristics for User Interface Design.* Nielsen Norman Group. [nngroup.com](https://www.nngroup.com/articles/ten-usability-heuristics/)
+- Torres Burriel, D. (2008). *Plantilla para hacer análisis heurísticos de usabilidad.* torresburriel.com
+
+---
+
+[📄 Ver Presentación de la Clase](material-clase/presentacion.pdf)

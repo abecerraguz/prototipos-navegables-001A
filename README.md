@@ -83,19 +83,21 @@ Nueva maqueta responsiva + informe del proceso completo.
 
 Resúmenes de cada clase con los contenidos del material guía, conceptos clave, RA/IL y actividad de la semana.
 
-| Semana | Fecha | Experiencia | Tema | Resumen | Estado |
-|:------:|:-----:|:-----------:|------|:-------:|:------:|
-| 1 | Mié 21 oct | Exp. 1 | Aprendiendo a crear componentes de diseño | [📝 Ver resumen](semana-01/resumen-clase.md) | ✅ Disponible |
-| 2 | Mié 28 oct | Exp. 1 | Aplicando interacción a un landing page | [📝 Ver resumen](semana-02/resumen-clase.md) | ✅ Disponible |
-| 3 | Mié 4 nov | Exp. 2 | Reconociendo patrones de interacción en dispositivos móviles | [📝 Ver resumen](semana-03/resumen-clase.md) | ✅ Disponible |
-| 4 | Mié 11 nov | Exp. 2 | Diseñando una interfaz responsiva | [📝 Ver resumen](semana-04/resumen-clase.md) | ✅ Disponible |
-| 5 | Mié 18 nov | Exp. 2 | Diseñando una interfaz con sistemas de diseño | [📝 Ver resumen](semana-05/resumen-clase.md) | ✅ Disponible |
-| 6 | Mié 25 nov | Exp. 3 | Comprendiendo un test heurístico | [📝 Ver resumen](semana-06/resumen-clase.md) | ✅ Disponible |
-| 7 | Mié 2 dic | Exp. 3 | Identificando elementos a evaluar con test heurístico | [📝 Ver resumen](semana-07/resumen-clase.md) | ✅ Disponible |
-| 8 | Mié 9 dic | Exp. 3 | Importancia de la iteración y mejora | [📝 Ver resumen](semana-08/resumen-clase.md) | ✅ Disponible |
-| 9 | Mié 16 dic | EFT | Evaluación Final Transversal | [📝 Ver resumen](semana-09/resumen-clase.md) | ✅ Disponible |
+| Semana | Fecha | Experiencia | Tema | Resumen | Tutorial Figma | Estado |
+|:------:|:-----:|:-----------:|------|:-------:|:--------------:|:------:|
+| 1 | Mié 21 oct | Exp. 1 | Aprendiendo a crear componentes de diseño | [📝 Ver resumen](semana-01/resumen-clase.md) | [🎨 Ver tutorial](semana-01/tutorial-figma.md) | ✅ Disponible |
+| 2 | Mié 28 oct | Exp. 1 | Aplicando interacción a un landing page | [📝 Ver resumen](semana-02/resumen-clase.md) | [🎨 Ver tutorial](semana-02/tutorial-figma.md) | ✅ Disponible |
+| 3 | Mié 4 nov | Exp. 2 | Reconociendo patrones de interacción en dispositivos móviles | [📝 Ver resumen](semana-03/resumen-clase.md) | [🎨 Ver tutorial](semana-03/tutorial-figma.md) | ✅ Disponible |
+| 4 | Mié 11 nov | Exp. 2 | Diseñando una interfaz responsiva | [📝 Ver resumen](semana-04/resumen-clase.md) | [🎨 Ver tutorial](semana-04/tutorial-figma.md) | ✅ Disponible |
+| 5 | Mié 18 nov | Exp. 2 | Diseñando una interfaz con sistemas de diseño | [📝 Ver resumen](semana-05/resumen-clase.md) | [🎨 Ver tutorial](semana-05/tutorial-figma.md) | ✅ Disponible |
+| 6 | Mié 25 nov | Exp. 3 | Comprendiendo un test heurístico | [📝 Ver resumen](semana-06/resumen-clase.md) | [🎨 Ver tutorial](semana-06/tutorial-figma.md) | ✅ Disponible |
+| 7 | Mié 2 dic | Exp. 3 | Identificando elementos a evaluar con test heurístico | [📝 Ver resumen](semana-07/resumen-clase.md) | [🎨 Ver tutorial](semana-07/tutorial-figma.md) | ✅ Disponible |
+| 8 | Mié 9 dic | Exp. 3 | Importancia de la iteración y mejora | [📝 Ver resumen](semana-08/resumen-clase.md) | [🎨 Ver tutorial](semana-08/tutorial-figma.md) | ✅ Disponible |
+| 9 | Mié 16 dic | EFT | Evaluación Final Transversal | [📝 Ver resumen](semana-09/resumen-clase.md) | [🎨 Ver tutorial](semana-09/tutorial-figma.md) | ✅ Disponible |
 
 > 📌 Cada `resumen-clase.md` incluye: introducción desde el PDF guía, RA e IL en tabla, conceptos clave, contenidos desarrollados, descripción de la actividad y placeholders para infografía y presentación de clase.
+>
+> 🎨 Cada `tutorial-figma.md` es una guía paso a paso en Figma, pensada para quienes recién comienzan: construye el proyecto Apple Store semana a semana, con pasos que indican dónde está cada herramienta, cómo comprobar el resultado y los errores frecuentes.
 >
 > 🖼️ Los archivos `material-clase/infografia.png` y `material-clase/presentacion.pdf` de cada semana están pendientes de carga — cuando se agreguen, los resúmenes los referenciarán automáticamente.
 

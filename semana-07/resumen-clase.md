@@ -4,15 +4,26 @@
 
 ---
 
-> 🖼️ *Infografía de clase — agregar a `material-clase/infografia.png` cuando esté disponible.*
+![Infografía Semana 7](material-clase/infografia.png)
+
+---
+
+> 🎨 **Tutorial práctico de la semana:** [tutorial-figma.md](tutorial-figma.md) — preparar el prototipo para testear, compartirlo, hacer el test con personas y revisar la accesibilidad en Figma.
 
 ---
 
 ## Introducción
 
-Esta semana aprendemos a crear una **lista de evaluación** para probar nuestros prototipos usando las 10 leyes heurísticas de Nielsen. Exploraremos cómo aplicar un **test guiado y uno no guiado**, usaremos la **plantilla Torres Burriel** y aprenderemos a seleccionar herramientas de testeo en Figma. También evaluaremos criterios de **accesibilidad** en nuestro prototipo y documentaremos los resultados.
+Esta semana aprenderemos a crear una **lista de evaluación** para probar nuestros prototipos con las 10 heurísticas de Nielsen, incluyendo los elementos clave del proyecto: sus objetivos, su nombre y su estructura.
 
-> 💡 **Preguntas activadoras:** ¿Para qué sirve un test heurístico? ¿Cuáles son los elementos clave que debemos sumar a nuestro test? ¿Cuál es la pauta de accesibilidad que debemos seguir para testear el diseño?
+Aprenderemos a aplicar un **test guiado** y uno **no guiado** para obtener retroalimentación de los usuarios. Usaremos la **plantilla de test heurístico de Torres Burriel** y aprenderemos a elegir las herramientas del software de diseño para **presentar el prototipo** a usuarios y clientes y recibir su feedback.
+
+También evaluaremos las **pautas y criterios de accesibilidad** del prototipo y, al final, aprenderemos a **documentar los resultados**.
+
+> 💡 **Preguntas activadoras**
+> - ¿Para qué sirve un test heurístico?
+> - ¿Cuáles son los elementos clave que debemos sumar a nuestro test?
+> - ¿Cuál es la pauta de accesibilidad que debemos seguir para testear nuestro diseño de interfaz?
 
 ---
 
@@ -22,179 +33,167 @@ Esta semana aprendemos a crear una **lista de evaluación** para probar nuestros
 
 | IL | Indicador |
 |----|-----------|
-| **IL1** | Utiliza componentes para el diseño de una interfaz interactiva. |
-| **IL2** | Utiliza elementos gráficos para la correcta composición de un diseño de interfaz. |
-| **IL3** | Implementa una maqueta de interfaz responsiva para múltiples dispositivos. |
+| **IL1** | Utiliza componentes para el diseño de una interfaz interactiva, de acuerdo a la experiencia de usuario y requerimientos del proyecto. |
+| **IL2** | Utiliza elementos gráficos para la correcta composición de un diseño de interfaz, aplicando interacciones y considerando elementos de accesibilidad y usabilidad. |
+| **IL3** | Implementa una maqueta de interfaz responsiva para múltiples dispositivos, según los requerimientos del proyecto. |
 | **IL4** | Aplica guía de estilo, considerando criterios de accesibilidad y usabilidad. |
 | **IL5** | Compone prototipo interactivo, considerando elementos de accesibilidad y usabilidad. |
-| **IL6** | Aplica test heurístico en el diseño de interfaz, para evaluar la usabilidad y la experiencia del usuario. |
+| **IL6** | Aplica test heurístico en el diseño de interfaz, para evaluar la usabilidad y la experiencia del usuario en la navegación. |
 | **IL7** | Implementa cambios a partir de los resultados del testeo para la mejora del diseño de interfaz. |
 
 ---
 
 ## Conceptos Clave de la Semana
 
-`Test heurístico` · `Test guiado` · `Test no guiado` · `Plantilla Torres Burriel` · `Criterios de accesibilidad` · `Documentación de resultados`
+`Test heurístico` · `Usabilidad` · `Evaluación` · `Mejoras de prototipos` · `Accesibilidad`
 
 ---
 
 ## Contenidos
 
-### 1. Testeando el Diseño de Interfaz
+### 1. Testeando el diseño de interfaz: la lista de evaluación
 
-Para evaluar un diseño creamos un **checklist** de elementos a revisar. Yusef Hassan (NoSoloUsabilidad) estableció criterios de evaluación clasificados en categorías:
+Para evaluar un diseño creamos un **checklist** con los elementos a revisar. A partir de los principios de Nielsen, **Yusef Hassan** (revista *No Solo Usabilidad*) estableció criterios de evaluación por categorías. Algunas preguntas de cada una:
 
-**Criterios Generales:**
-- ¿Los objetivos del sitio son concretos y bien definidos?
-- ¿Los contenidos y servicios se corresponden con esos objetivos?
-- ¿La estructura general está orientada al usuario?
-- ¿El look & feel se corresponde con los objetivos del sitio?
-- ¿Es coherente y reconocible el diseño general?
+| Categoría | Preguntas de ejemplo |
+|-----------|---------------------|
+| **Generales** | ¿Los objetivos del sitio son concretos y están bien definidos? ¿Los contenidos y servicios corresponden a esos objetivos? ¿La estructura está orientada al usuario? ¿El *look & feel* corresponde a los objetivos? ¿El diseño es coherente y reconocible? |
+| **Identidad e información** | ¿Se muestra la identidad de la empresa en todas las páginas? ¿El logotipo es significativo y visible? ¿El eslogan expresa qué es la empresa? ¿Hay mecanismos de contacto? ¿Se informa sobre protección de datos y derechos de autor? |
+| **Lenguaje y redacción** | ¿El sitio habla el mismo lenguaje que sus usuarios? |
+| **Rotulado** | ¿Los rótulos son significativos y estándar? ¿Hay un único sistema de organización, claro? ¿Los títulos de página están bien planificados? |
+| **Estructura y navegación** | ¿La organización es la adecuada, con equilibrio entre profundidad y anchura? ¿Los enlaces se reconocen e indican su estado? ¿Los menús evitan la sobrecarga? ¿Hay elementos que indican dónde estoy y cómo volver? ¿Se evitó la redundancia de enlaces? |
+| **Lay-out de la página** | ¿Lo más relevante está en las zonas de mayor jerarquía? ¿Se evitó la sobrecarga informativa y el ruido visual? ¿Hay espacios en blanco para descansar la vista? ¿Se usa bien la jerarquía visual? ¿Se controló el largo de la página? |
+| **Búsqueda** | ¿Es fácil de encontrar y de reconocer? ¿Permite búsqueda avanzada? |
+| **Elementos multimedia** | ¿Las fotos están bien recortadas y con buena resolución? ¿Las metáforas visuales se entienden? ¿Las imágenes y animaciones aportan valor? ¿Se evitaron las animaciones cíclicas? |
+| **Ayuda** | ¿La sección de ayuda es necesaria y está en una zona visible? ¿Hay ayuda contextual en tareas complejas? ¿Las FAQ están bien elegidas y redactadas? |
+| **Accesibilidad** | ¿El tamaño de fuente es relativo o suficientemente grande? ¿La tipografía, el ancho de línea y la alineación facilitan la lectura? ¿Hay alto contraste entre texto y fondo? ¿Las imágenes tienen `alt`? ¿Se ve bien en distintas resoluciones? ¿Se puede imprimir? |
+| **Control y retroalimentación** | ¿El usuario tiene el control? ¿Se le informa lo que está pasando y lo que pasó? ¿Los errores se explican de forma clara, no alarmista y con solución? ¿Tiene libertad para actuar? |
 
-**Criterios de Identidad e Información:**
-- ¿Se muestra claramente la identidad de la empresa en todas las páginas?
-- ¿El logotipo es significativo, identificable y suficientemente visible?
-- ¿Se proporcionan mecanismos de contacto?
-- ¿Se informa sobre protección de datos?
-
-**Criterios de Lenguaje y Redacción:**
-- ¿Los textos son concisos y claros?
-- ¿Se usa lenguaje cercano al usuario (no técnico)?
-
-**Criterios de Rotulado:**
-- ¿Los títulos y etiquetas son descriptivos y significativos?
-- ¿Los rótulos son auto-evidentes para el usuario?
+> 🔗 [Guía de Evaluación Heurística de Sitios Web — No Solo Usabilidad](http://www.nosolousabilidad.com/articulos/heuristica.htm)
 
 ---
 
-### 2. Test Guiado vs. Test No Guiado
+### 2. Consideraciones al diseñar y testear
 
-| | Test Guiado | Test No Guiado |
+| Elemento clave | Qué revisar | Ejemplo de la guía |
+|----------------|-------------|-------------------|
+| **Coherencia con la línea gráfica del sistema** | Que el proyecto siga el sistema de diseño establecido. | El ícono de compartir de WhatsApp y Facebook: varían en color o tamaño, pero comparten lógica. |
+| **Reconocer antes de recordar** | Íconos y etiquetas fáciles de reconocer y navegación sencilla, con varias formas de encontrar lo que se busca. | Uber Eats. |
+| **Controles de entrada (inputs)** | Botones, campos de texto, listas desplegables y campos de fecha fáciles de encontrar, usables y accesibles. | Buscadores de Gmail y LinkedIn. |
+| **Componentes informativos** | Tooltips, notificaciones y barras de progreso que informan el estado, **sin abusar** de ellos. | Tooltip del sitio del Volkswagen up!. |
+| **Componentes de navegación** | Campos de búsqueda, íconos y etiquetas (*tags*) que ayudan a moverse, filtrar y clasificar. | Barra de navegación de Instagram. |
+
+---
+
+### 3. Herramientas para testear el prototipo
+
+La guía muestra el **panel Compartir** de Adobe XD. En **Figma** las mismas opciones están en el botón **Compartir / Share** y en la vista **Presentar**:
+
+| Vista (guía) | Para qué sirve | En Figma |
+|--------------|----------------|----------|
+| **Revisión del diseño** | Que el equipo o el cliente comenten el avance. | Compartir el **archivo** con permiso para comentar; **comentarios** (tecla C). |
+| **Desarrollo** | Que el equipo de desarrollo extraiga recursos y medidas. | **Dev Mode** y la sección Exportar. |
+| **Presentación** | Mostrar el diseño a pantalla completa, sin distracciones. | **Presentar** (▶) y enlace del prototipo. |
+| **Test de usuario** | Que el usuario pruebe y dé feedback. | **Enlace del prototipo** con el flujo de la tarea como punto de inicio. |
+| **Personalizada** | Agregar contraseña o ajustar lo que se comparte. | Configuración de acceso del enlace (según el plan). |
+
+**Pasos para compartir:** abrir **Compartir** → elegir el **flujo** que se va a probar → elegir qué se comparte (archivo o prototipo) → configurar **quién puede verlo** (por ejemplo, «Cualquier persona con el enlace · Puede ver») → **copiar el enlace**.
+
+> 💡 Para probarlo en un celular, usa la app de Figma (iOS o Android).
+
+---
+
+### 4. Aplicación del test heurístico: guiado y no guiado
+
+| | Test guiado | Test no guiado |
 |--|------------|----------------|
-| **Descripción** | Se le da una tarea específica al evaluador | El evaluador navega libremente |
-| **Ejemplo** | "Encuentra y compra un iPhone 16 Pro 256GB" | "Explora el sitio y dime qué encuentras" |
-| **Detecta** | Problemas en flujos de tarea específicos | Problemas de descubrimiento y navegación general |
-| **Ventaja** | Datos precisos sobre tareas concretas | Hallazgos inesperados, perspectiva fresca |
-| **Recomendación** | Para evaluar flujos de compra | Para evaluar primera impresión y navegación |
+| **Cómo es** | El equipo de diseño **guía** por dónde debe navegar el usuario. | Se explica el **contexto**, pero **no se guía**: se observa y se toma nota de todo lo que hace y no hace. |
+| **Para qué sirve** | Averiguar cómo funciona una **sección puntual** o un elemento. Más focalizado, aunque puede cubrir todo el prototipo. | Ver cómo avanza el flujo, **dónde se estanca** y dónde la navegación es más fácil. |
+| **Recomendación** | Definir de antemano las secciones o tareas a revisar. | **Grabar** la sesión para rescatar después lo que no se alcanzó a observar. |
 
-> 🎯 Para una evaluación completa: combinar **ambos tipos** en la misma sesión.
+**La plantilla de Torres Burriel:** el estudio Torres Burriel desarrolló un **test que permite puntuar** el prototipo, basado en los criterios de Yusef Hassan. Se aplica así:
+1. Descargar la plantilla y **completar los datos del proyecto**.
+2. Revisar cada **pregunta de cotejo** mientras se prueba el prototipo.
+3. **Asignar una puntuación** a cada elemento o pregunta.
 
----
-
-### 3. Plantilla Test Heurístico de Torres Burriel
-
-La plantilla de Torres Burriel es una herramienta estructurada para documentar la evaluación heurística de manera profesional.
-
-**Estructura de la plantilla:**
-
-```
-DATOS DEL PROYECTO
-  Nombre del proyecto:
-  Evaluador/es:
-  Fecha:
-  Tareas evaluadas:
-  URL / Prototipo:
-
-RESUMEN EJECUTIVO
-  Total de problemas por severidad:
-    - Severidad 4 (Catastrófico): X
-    - Severidad 3 (Mayor): X
-    - Severidad 2 (Menor): X
-    - Severidad 1 (Cosmético): X
-  Top 3 problemas críticos:
-    1. [Descripción breve]
-    2. [Descripción breve]
-    3. [Descripción breve]
-
-HALLAZGOS DETALLADOS (tabla)
-  ID | Heurística | Elemento | Descripción | Severidad | Propuesta
-
-CONCLUSIONES
-  Evaluación general:
-  Próximos pasos:
-```
+> 🔗 [Plantilla para hacer análisis heurísticos de usabilidad — Torres Burriel](https://torresburriel.com/weblog/plantilla-para-hacer-analisis-heuristicos-de-usabilidad/) · Video (en inglés): [Heuristic Evaluation of User Interfaces](https://www.youtube.com/watch?v=6Bw0n6Jvwxk)
 
 ---
 
-### 4. Consideraciones al Diseñar y/o Testear
+### 5. Aplicación de los criterios de accesibilidad
 
-**Aspectos clave del prototipo a evaluar:**
+A los elementos clave de la lista de evaluación se les aplica la **tabla de cotejo de las WCAG**, revisando punto a punto según el **marco legal chileno**: un sitio debe cumplir al menos el **nivel AA** para considerarse accesible.
 
-| Aspecto | Qué revisar |
-|---------|------------|
-| **Navegación** | ¿Es intuitiva? ¿El usuario siempre sabe dónde está? |
-| **Contenido** | ¿Es claro, conciso y orientado al usuario? |
-| **Formularios** | ¿Tienen labels visibles? ¿Mensajes de error claros? |
-| **Consistencia** | ¿Los mismos elementos se ven igual en todas las páginas? |
-| **Feedback** | ¿El sistema responde visiblemente a las acciones del usuario? |
-| **Accesibilidad** | ¿Contraste suficiente? ¿Alt text? ¿Área táctil mínima? |
+> 🔗 Tabla de cotejo de las WCAG para el nivel AA en el CRAED: [craed.cl/criterios-de-accesibilidad](https://craed.cl/criterios-de-accesibilidad/)
 
----
-
-### 5. Selección de Herramientas de Testeo en Figma
-
-| Herramienta | Cómo usar | Para qué sirve |
-|------------|-----------|---------------|
-| **Prototype mode** | Activar en panel derecho | Navegar el prototipo como usuario real |
-| **Figma Mirror** | App mobile + mismo WiFi | Ver el prototipo en dispositivo real en tiempo real |
-| **Compartir enlace** | Share → Anyone with link → Can view | Testeo remoto con evaluadores externos |
-| **Comments** | Ícono de burbuja en toolbar | Dejar notas sobre elementos específicos |
-| **Maze.co** | Integración con Figma | Test remoto con métricas (click maps, tiempo de tarea) |
+**Revisiones prácticas en Figma** (complemento):
+- **Contraste:** un plugin de contraste o el [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/). Texto normal ≥ 4,5:1; texto grande ≥ 3:1.
+- **Áreas táctiles:** botones, chips y links de al menos 44 × 44.
+- **Texto alternativo** anotado en cada imagen; las decorativas, declaradas como tales.
+- **Información no solo por color**, **foco visible** y **mensajes de error** claros.
 
 ---
 
-### 6. Aplicación de Criterios de Accesibilidad al Prototipo
+### 6. Documentación de los resultados
 
-Al evaluar el prototipo con criterios de accesibilidad, revisar:
+Los resultados se presentan en un **informe**, que siempre debe tener:
 
-**Perceptibilidad:**
-- ¿Todas las imágenes tienen alt text anotado?
-- ¿El contraste de texto cumple WCAG 2.1 AA (≥4.5:1 para texto normal)?
-- ¿La información no se transmite SOLO por color?
+| Sección | Qué incluye |
+|---------|-------------|
+| **Introducción** | Qué se analizó, qué pruebas se hicieron, qué herramientas se usaron para el test heurístico y la evaluación de accesibilidad, y un resumen de los hallazgos. |
+| **Explicación del contexto** | Por qué y para qué se hicieron las pruebas. |
+| **Hallazgos más importantes** | Lista ordenada por prioridad: de los más críticos a los más fáciles de corregir. |
+| **Lista del test heurístico** | El test completo, con todas sus aristas. |
+| **Lista de cotejo de accesibilidad** | La tabla completa del análisis. |
+| **Lo que cumple y lo que necesita mejoras** | Tablas o gráficos, y **capturas** que muestren visualmente qué está mal y qué cumple. |
 
-**Operabilidad:**
-- ¿Los elementos interactivos tienen área táctil ≥44×44px?
-- ¿Los estados de foco están marcados en las anotaciones?
-- ¿Hay suficiente tiempo para completar las tareas (no hay timeouts abruptos)?
-
-**Comprensibilidad:**
-- ¿El lenguaje es claro y sencillo?
-- ¿Los mensajes de error son descriptivos y útiles?
-- ¿La estructura de navegación es predecible?
-
-**Robustez:**
-- ¿Las anotaciones indican atributos ARIA necesarios?
-- ¿Los formularios tienen labels correctamente asociados?
-
----
-
-### 7. Documentación de Resultados
-
-Una buena documentación del test debe incluir:
-- **Descripción detallada** de cada elemento evaluado
-- **Resultados del test heurístico** (todas las violaciones encontradas)
-- **Resultados de criterios de accesibilidad** (qué cumple y qué no)
-- **Propuestas de mejora** con especificidad (no solo "mejorar el contraste" — sino "cambiar el texto #6E6E73 a #4A4A4A sobre fondo blanco para cumplir 4.5:1")
-- **Impacto esperado** de los cambios en usabilidad y accesibilidad
+> 🔁 **Iteración y mejora continua:** las pruebas son un proceso iterativo. Después de mejorar, hay que **volver a probar** para confirmar que el sitio es accesible.
 
 ---
 
 ## Actividad de la Semana
 
-> 📝 **AF5: Evaluando nuestro prototipo** · Cuestionario con plantilla descargable
+> 📝 **AF5: Evaluando nuestro prototipo** · Actividad formativa con formato de respuesta
 
-Aplica las 10 heurísticas de Nielsen y los criterios de accesibilidad a tu proyecto de diseño de interfaz prototipado. Revisa cada página interior del prototipo (mínimo 5 páginas) y documenta tus hallazgos en la plantilla descargable desde AVA.
+Aplica las **10 heurísticas de Nielsen** y los **criterios de accesibilidad** a tu prototipo de la tienda. Revisa **cada página interior (mínimo 5 y máximo 10)** y evalúa cómo se cumplen en cada elemento del diseño. Documenta los hallazgos y las mejoras propuestas en un **breve reporte**, usando el mismo formato de respuesta de la actividad.
+
+**Estructura del reporte:**
+1. **Introducción:** el proyecto, su objetivo y la metodología de la evaluación heurística y de accesibilidad.
+2. **Explicación del contexto** en que se hizo la evaluación.
+3. **Hallazgos más importantes**, en orden de prioridad (los críticos primero).
+4. **Test heurístico completo** que usaste, adjunto.
+5. **Tabla de cotejo de accesibilidad** que usaste, con los criterios revisados en cada elemento.
+6. **Elementos que cumplen y elementos que necesitan mejoras**, con tablas o gráficos, y **cómo implementarías los cambios**.
+7. **Conclusiones:** hallazgos principales, recomendaciones y su impacto en la usabilidad y la accesibilidad.
+
+**Entrega (ambos al AVA):**
+1. El **formato de respuesta** completo, con el **enlace de revisión** del diseño.
+2. **ZIP** con el archivo del proyecto.
 
 - 📅 **Fecha límite:** Lunes 7 de diciembre de 2026 a las 23:59 hrs
-- 📤 **Entrega:** Descarga la plantilla desde AVA, complétala y sube el archivo
-- ⚠️ Esta actividad tiene rúbrica
+- ⚠️ Tiene rúbrica.
 
 ---
 
 ## Cierre de Semana
 
-La plantilla Torres Burriel nos da un lenguaje común para hablar de problemas de usabilidad con el cliente y el equipo de desarrollo. "El botón no se ve bien" se convierte en "Heurística #8 (Diseño minimalista), severidad 2: el botón CTA compite visualmente con 3 otros botones en la misma vista. Propuesta: reducir a un solo CTA primario y hacer los demás secundarios."
+Mostrar los resultados de los tests heurísticos y de accesibilidad es parte esencial del trabajo de quien diseña interfaces. Esta semana:
+
+- Exploramos el test heurístico de Nielsen y los **criterios de accesibilidad** para evaluar el diseño.
+- Creamos **listas de evaluación** y aplicamos el test a nuestros prototipos.
+- Aprendimos a identificar los elementos clave: objetivos del proyecto, **coherencia con la línea gráfica** y una interfaz fácil de navegar y de recordar.
+- Usamos las herramientas de **compartir** para mostrar el diseño al equipo o al cliente y recibir feedback.
+- Aplicamos el test **guiado** (aspectos específicos) y **no guiado** (observar el flujo de navegación).
+
+Dominar el test heurístico y los criterios de accesibilidad garantiza la calidad y la usabilidad de nuestros proyectos y mejora la experiencia de los usuarios.
 
 ---
 
-> 📄 *Presentación de clase — agregar a `material-clase/presentacion.pdf` cuando esté disponible.*
+## Referencias de la guía
+
+- Hassan, Y. y Martín, F. (2003). *Guía de Evaluación Heurística de Sitios Web.* No Solo Usabilidad. [nosolousabilidad.com](http://www.nosolousabilidad.com/articulos/heuristica.htm)
+- Núñez, M. (2021). *Usabilidad y accesibilidad.* Biblioteca Duoc UC. [craed.cl/usabilidad](https://craed.cl/usabilidad/)
+
+---
+
+[📄 Ver Presentación de la Clase](material-clase/presentacion.pdf)

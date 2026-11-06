@@ -4,7 +4,11 @@
 
 ---
 
-![Infografía Semana 2](material-clase/infografia.png)
+![Infografía Semana 3](material-clase/infografia.png)
+
+---
+
+> 🎨 **Tutorial práctico de la semana:** [tutorial-figma.md](tutorial-figma.md) — fold, ley del pulgar, áreas táctiles, menú hamburguesa, navegación inferior, carrusel y sticky CTA en Figma.
 
 ---
 
@@ -236,6 +240,8 @@ Una prueba de usabilidad permite revisar contenidos, patrones de diseño e inter
 | **Compatibilidad** | Si funciona en distintos dispositivos y sistemas (Android/iOS) y navegadores (*cross browser*: Chrome, Firefox, Edge, Safari) | Probar en al menos dos celulares distintos |
 | **A/B testing** | Qué versión funciona mejor para validar una hipótesis | CTA arriba vs. sticky CTA abajo |
 
+> 💡 **Inspiración (referencias de la guía):** revisa patrones reales en [Mobbin](https://mobbin.com), [Niceverynice](https://www.niceverynice.com), Dribbble, Behance y [Sidebar](https://sidebar.io).
+
 **¿Por qué probar específicamente en móvil?**
 - Las interacciones táctiles son distintas a las del mouse.
 - El contexto de uso cambia: movimiento, luz solar, una mano ocupada.
@@ -262,6 +268,8 @@ Una prueba de usabilidad permite revisar contenidos, patrones de diseño e inter
 - [ ] Nada depende del **hover**.
 - [ ] Revisé el diseño en un ancho chico (360) y uno grande (430).
 - [ ] Probé el prototipo **en un celular real**.
+
+> 🎨 Practica cada punto de esta lista en el [tutorial Figma de la semana](tutorial-figma.md).
 
 ---
 
