@@ -9,9 +9,9 @@
 
 ## 📎 Ejemplo de la clase en Figma
 
-🔒 Se publica el **miércoles 2 de diciembre, al terminar la clase**.
+[▶ Abrir el ejemplo de la Clase 07 en Figma](https://www.figma.com/design/tiefculcVhNy7W5gIB4ZfV)
 
-Mientras tanto, haz el tutorial: cuando se publique, compara tu trabajo con el ejemplo.
+Es el mismo proyecto Apple Store que construimos en clase, tal como queda al terminar esta semana. Úsalo **después** de hacer el tutorial: compara tu archivo con el ejemplo, revisa cómo están armadas las capas y los componentes, y presiona **▶ Presentar** para probar el prototipo. Si quieres desarmarlo, duplícalo en tus borradores: el original no cambia. Si tienes una duda, déjala como comentario (tecla **C**) sobre el elemento.
 
 ---
 

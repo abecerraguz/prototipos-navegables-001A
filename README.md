@@ -88,14 +88,14 @@ Resúmenes de cada clase con los contenidos del material guía, conceptos clave,
 | 1 | Mié 21 oct | Exp. 1 | Aprendiendo a crear componentes de diseño | [📝 Ver resumen](semana-01/resumen-clase.md) | [🎨 Ver tutorial](semana-01/tutorial-figma.md) | [🧩 Ver ejemplo](https://www.figma.com/design/c8QTs2HGJV7onDDMa4PKns) | ✅ Disponible |
 | 2 | Mié 28 oct | Exp. 1 | Aplicando interacción a un landing page | [📝 Ver resumen](semana-02/resumen-clase.md) | [🎨 Ver tutorial](semana-02/tutorial-figma.md) | [🧩 Ver ejemplo](https://www.figma.com/design/RYgItRByqHdlogloS5dLEj) | ✅ Disponible |
 | 3 | Mié 4 nov | Exp. 2 | Reconociendo patrones de interacción en dispositivos móviles | [📝 Ver resumen](semana-03/resumen-clase.md) | [🎨 Ver tutorial](semana-03/tutorial-figma.md) | [🧩 Ver ejemplo](https://www.figma.com/design/nnuz976XCoHd1U32hj1u9t) | ✅ Disponible |
-| 4 | Mié 11 nov | Exp. 2 | Diseñando una interfaz responsiva | [📝 Ver resumen](semana-04/resumen-clase.md) | [🎨 Ver tutorial](semana-04/tutorial-figma.md) | 🔒 11 nov | ✅ Disponible |
-| 5 | Mié 18 nov | Exp. 2 | Diseñando una interfaz con sistemas de diseño | [📝 Ver resumen](semana-05/resumen-clase.md) | [🎨 Ver tutorial](semana-05/tutorial-figma.md) | 🔒 18 nov (parcial) · 24 nov (completo) | ✅ Disponible |
-| 6 | Mié 25 nov | Exp. 3 | Comprendiendo un test heurístico | [📝 Ver resumen](semana-06/resumen-clase.md) | [🎨 Ver tutorial](semana-06/tutorial-figma.md) | 🔒 25 nov | ✅ Disponible |
-| 7 | Mié 2 dic | Exp. 3 | Identificando elementos a evaluar con test heurístico | [📝 Ver resumen](semana-07/resumen-clase.md) | [🎨 Ver tutorial](semana-07/tutorial-figma.md) | 🔒 2 dic | ✅ Disponible |
-| 8 | Mié 9 dic | Exp. 3 | Importancia de la iteración y mejora | [📝 Ver resumen](semana-08/resumen-clase.md) | [🎨 Ver tutorial](semana-08/tutorial-figma.md) | 🔒 9 dic | ✅ Disponible |
-| 9 | Mié 16 dic | EFT | Evaluación Final Transversal | [📝 Ver resumen](semana-09/resumen-clase.md) | [🎨 Ver tutorial](semana-09/tutorial-figma.md) | 🔒 9 dic | ✅ Disponible |
+| 4 | Mié 11 nov | Exp. 2 | Diseñando una interfaz responsiva | [📝 Ver resumen](semana-04/resumen-clase.md) | [🎨 Ver tutorial](semana-04/tutorial-figma.md) | [🧩 Ver ejemplo](https://www.figma.com/design/eWj1T2gmUaWlSM3tMLGhad) | ✅ Disponible |
+| 5 | Mié 18 nov | Exp. 2 | Diseñando una interfaz con sistemas de diseño | [📝 Ver resumen](semana-05/resumen-clase.md) | [🎨 Ver tutorial](semana-05/tutorial-figma.md) | [🧩 Ver ejemplo](https://www.figma.com/design/eOBjj5p0M9zqRY9LyQ3Dgd) | ✅ Disponible |
+| 6 | Mié 25 nov | Exp. 3 | Comprendiendo un test heurístico | [📝 Ver resumen](semana-06/resumen-clase.md) | [🎨 Ver tutorial](semana-06/tutorial-figma.md) | [🧩 Ver ejemplo](https://www.figma.com/design/g6QQkYAwk2pqVesSKcKb59) | ✅ Disponible |
+| 7 | Mié 2 dic | Exp. 3 | Identificando elementos a evaluar con test heurístico | [📝 Ver resumen](semana-07/resumen-clase.md) | [🎨 Ver tutorial](semana-07/tutorial-figma.md) | [🧩 Ver ejemplo](https://www.figma.com/design/tiefculcVhNy7W5gIB4ZfV) | ✅ Disponible |
+| 8 | Mié 9 dic | Exp. 3 | Importancia de la iteración y mejora | [📝 Ver resumen](semana-08/resumen-clase.md) | [🎨 Ver tutorial](semana-08/tutorial-figma.md) | [🧩 Ver ejemplo](https://www.figma.com/design/TYFZLFIFTpNbU0XGz7spEX) | ✅ Disponible |
+| 9 | Mié 16 dic | EFT | Evaluación Final Transversal | [📝 Ver resumen](semana-09/resumen-clase.md) | [🎨 Ver tutorial](semana-09/tutorial-figma.md) | [🧩 Ver ejemplo](https://www.figma.com/design/TYFZLFIFTpNbU0XGz7spEX) | ✅ Disponible |
 
-> 🧩 **Ejemplo Figma:** el proyecto Apple Store que se construye en clase, en un archivo por semana. Se publica al terminar cada clase (🔒 = aún no disponible).
+> 🧩 **Ejemplo Figma:** el proyecto Apple Store que se construye en clase, en un archivo por semana. Cada archivo muestra el proyecto tal como queda al terminar esa clase. Las semanas 8 y 9 comparten archivo.
 
 > 📌 Cada `resumen-clase.md` incluye: introducción desde el PDF guía, RA e IL en tabla, conceptos clave, contenidos desarrollados, descripción de la actividad y placeholders para infografía y presentación de clase.
 >

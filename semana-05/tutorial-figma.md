@@ -9,11 +9,9 @@
 
 ## 📎 Ejemplo de la clase en Figma
 
-🔒 **Versión parcial** (sistema de diseño, Home y Ficha de producto): se publica el **miércoles 18 de noviembre, al terminar la clase**.
+[▶ Abrir el ejemplo de la Clase 05 en Figma](https://www.figma.com/design/eOBjj5p0M9zqRY9LyQ3Dgd)
 
-🔒 **Versión completa** (con Carrito, Check out y Confirmación): se publica el **martes 24 de noviembre**, después de la entrega de la AS2.
-
-Mientras tanto, haz el tutorial: cuando se publique, compara tu trabajo con el ejemplo.
+Es el mismo proyecto Apple Store que construimos en clase, tal como queda al terminar esta semana. Úsalo **después** de hacer el tutorial: compara tu archivo con el ejemplo, revisa cómo están armadas las capas y los componentes, y presiona **▶ Presentar** para probar el prototipo. Si quieres desarmarlo, duplícalo en tus borradores: el original no cambia. Si tienes una duda, déjala como comentario (tecla **C**) sobre el elemento.
 
 ---
 
