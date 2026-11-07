@@ -9,6 +9,14 @@
 
 > 📌 **Sobre la AF3:** el caso pide una landing **móvil** (mínimo 350 px de ancho) para una tienda de distribución de productos Apple, con un **catálogo de 5 productos**, columnas, tipografía y espaciado accesibles, interacciones móviles y contenido sobre y bajo el fold. Este tutorial te lleva por todo eso; la versión de escritorio es un paso extra que te servirá en las semanas siguientes.
 
+## 📎 Ejemplo de la clase en Figma
+
+🔒 Se publica el **miércoles 11 de noviembre, al terminar la clase**.
+
+Mientras tanto, haz el tutorial: cuando se publique, compara tu trabajo con el ejemplo.
+
+---
+
 ## Qué vas a aprender
 
 - Usar **cuadrículas de columnas** de 4 (móvil) y 12 (escritorio).

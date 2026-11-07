@@ -7,6 +7,14 @@
 
 **Tiempo estimado:** 75–90 minutos.
 
+## 📎 Ejemplo de la clase en Figma
+
+[▶ Abrir el ejemplo de la Clase 03 en Figma](https://www.figma.com/design/nnuz976XCoHd1U32hj1u9t)
+
+Es el mismo proyecto Apple Store que construimos en clase, tal como queda al terminar esta semana. Úsalo **después** de hacer el tutorial: compara tu archivo con el ejemplo, revisa cómo están armadas las capas y los componentes, y presiona **▶ Presentar** para probar el prototipo. Si quieres desarmarlo, duplícalo en tus borradores: el original no cambia. Si tienes una duda, déjala como comentario (tecla **C**) sobre el elemento.
+
+---
+
 ## Qué vas a aprender
 
 - Crear frames con medidas de celular (**points**, no píxeles físicos).

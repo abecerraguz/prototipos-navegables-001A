@@ -7,6 +7,14 @@
 
 **Tiempo estimado:** 2,5 horas, más el tiempo del A/B test con 2 a 4 personas.
 
+## 📎 Ejemplo de la clase en Figma
+
+🔒 Se publica el **miércoles 9 de diciembre, al terminar la clase**.
+
+Mientras tanto, haz el tutorial: cuando se publique, compara tu trabajo con el ejemplo.
+
+---
+
 ## Qué vas a aprender
 
 - Guardar el estado **antes** de iterar (historial de versiones y capturas).

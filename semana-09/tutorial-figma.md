@@ -7,6 +7,14 @@
 
 **Tiempo estimado:** 3 a 4 horas para la maqueta y las capturas. El informe va aparte.
 
+## 📎 Ejemplo de la clase en Figma
+
+🔒 Esta semana usa el mismo archivo de la Clase 08 (página «Clase 09 · Maqueta final y EFT»). Se publica el **miércoles 9 de diciembre**.
+
+Mientras tanto, haz el tutorial: cuando se publique, compara tu trabajo con el ejemplo.
+
+---
+
 ## Qué vas a lograr
 
 - Una **maqueta final** responsiva, ordenada y navegable.

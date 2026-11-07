@@ -7,6 +7,14 @@
 
 **Tiempo estimado:** 2 horas, más 20 a 30 minutos por cada persona que pruebe tu prototipo.
 
+## 📎 Ejemplo de la clase en Figma
+
+🔒 Se publica el **miércoles 2 de diciembre, al terminar la clase**.
+
+Mientras tanto, haz el tutorial: cuando se publique, compara tu trabajo con el ejemplo.
+
+---
+
 ## Qué vas a aprender
 
 - Preparar **un flujo por tarea** para el test.
@@ -43,8 +51,11 @@
 1. Escribe 3 tareas guiadas. Que sean concretas y no digan **dónde** hacer clic:
    - ✅ «Quieres comprar unos audífonos. Encuéntralos y agrégalos a la bolsa.»
    - ❌ «Haz clic en Productos y luego en AirPods.»
-2. En `📱 Páginas · Mobile 375`, selecciona el frame donde empieza cada tarea (normalmente la home). En **Prototipo**, junto a **Punto de inicio de flujo**, pulsa **+** y nómbralo `Tarea 1 · Audífonos`, `Tarea 2 · …`, etc.
-3. Crea también un flujo `Exploración libre` para el test no guiado.
+2. En `📱 Páginas · Mobile 375`, crea un **frame de inicio** por tarea (`375 × 812`): el enunciado de la tarea, la frase «Piensa en voz alta» y un botón `Comenzar` que **navega a** la home. Nómbralos `Inicio · Tarea 1`, `Inicio · Tarea 2`…
+3. Selecciona cada frame de inicio. En **Prototipo**, junto a **Punto de inicio de flujo**, pulsa **+** y nómbralo `Tarea 1 · Audífonos`, `Tarea 2 · …`, etc.
+4. Haz lo mismo para el test no guiado: un frame `Inicio · Exploración libre` con el flujo `Exploración libre`.
+
+> **¿Por qué un frame de inicio por tarea?** En Figma, **un frame solo puede ser el punto de inicio de un flujo**. Si todas las tareas empiezan en la home, no puedes poner tres puntos de inicio sobre ella. Con un frame de inicio por tarea, además, la persona lee la tarea en la pantalla antes de empezar.
 
 ### Comprueba
 

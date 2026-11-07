@@ -32,6 +32,14 @@ En este tutorial vas a construir, paso a paso, un **botón** y una **card de pro
 
 **Tiempo estimado:** 45–60 minutos
 
+## 📎 Ejemplo de la clase en Figma
+
+[▶ Abrir el ejemplo de la Clase 01 en Figma](https://www.figma.com/design/c8QTs2HGJV7onDDMa4PKns)
+
+Es el mismo proyecto Apple Store que construimos en clase, tal como queda al terminar esta semana. Úsalo **después** de hacer el tutorial: compara tu archivo con el ejemplo, revisa cómo están armadas las capas y los componentes, y presiona **▶ Presentar** para probar el prototipo. Si quieres desarmarlo, duplícalo en tus borradores: el original no cambia. Si tienes una duda, déjala como comentario (tecla **C**) sobre el elemento.
+
+---
+
 ## Qué vas a aprender
 
 - Organizar un archivo con **páginas** y **frames**.

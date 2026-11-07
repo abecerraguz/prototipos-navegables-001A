@@ -7,6 +7,16 @@
 
 **Tiempo estimado:** 2,5 a 3 horas. Te recomendamos hacerlo en tres sesiones: pasos 1 a 4 (sistema), pasos 5 a 7 (páginas móviles) y pasos 8 a 11 (escritorio y flujos).
 
+## 📎 Ejemplo de la clase en Figma
+
+🔒 **Versión parcial** (sistema de diseño, Home y Ficha de producto): se publica el **miércoles 18 de noviembre, al terminar la clase**.
+
+🔒 **Versión completa** (con Carrito, Check out y Confirmación): se publica el **martes 24 de noviembre**, después de la entrega de la AS2.
+
+Mientras tanto, haz el tutorial: cuando se publique, compara tu trabajo con el ejemplo.
+
+---
+
 ## Qué vas a aprender
 
 - Ordenar el archivo como un **sistema de diseño**.

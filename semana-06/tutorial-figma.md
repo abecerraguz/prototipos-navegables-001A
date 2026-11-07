@@ -7,6 +7,14 @@
 
 **Tiempo estimado:** 90 minutos.
 
+## 📎 Ejemplo de la clase en Figma
+
+🔒 Se publica el **miércoles 25 de noviembre, al terminar la clase**.
+
+Mientras tanto, haz el tutorial: cuando se publique, compara tu trabajo con el ejemplo.
+
+---
+
 ## Qué vas a aprender
 
 - Crear una página de **evaluación** dentro de tu archivo.

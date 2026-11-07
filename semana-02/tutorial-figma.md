@@ -11,6 +11,14 @@ En este tutorial convertirás los componentes de la semana 1 en una **landing pa
 
 > 📌 **Sobre la AS1:** aquí practicas las técnicas con el proyecto Apple Store. La **AS1** pide aplicar estas mismas técnicas (header, nav y footer como componentes, interacciones, anclas y anotaciones de accesibilidad) al **rediseño del line-up del festival Lollapalooza**. Lee el enunciado en AVA; el Paso 11 te explica cómo entregar.
 
+## 📎 Ejemplo de la clase en Figma
+
+[▶ Abrir el ejemplo de la Clase 02 en Figma](https://www.figma.com/design/RYgItRByqHdlogloS5dLEj)
+
+Es el mismo proyecto Apple Store que construimos en clase, tal como queda al terminar esta semana. Úsalo **después** de hacer el tutorial: compara tu archivo con el ejemplo, revisa cómo están armadas las capas y los componentes, y presiona **▶ Presentar** para probar el prototipo. Si quieres desarmarlo, duplícalo en tus borradores: el original no cambia. Si tienes una duda, déjala como comentario (tecla **C**) sobre el elemento.
+
+---
+
 ## Qué vas a aprender
 
 - Crear una **guía de estilos** con variables de color y **estilos de texto**.
